@@ -14,8 +14,7 @@ const About = () => {
       {/* Hero Section */}
       <div className="relative h-[400px] bg-gray-900">
         <img
-          // src="https://images.unsplash.com/photo-1581784878214-8d5596b98a01?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjMzMjE1MTR8MA&ixlib=rb-4.1.0&q=85"
-          src="/static/IMG_4349.png"
+          src="/images/IMG_4349.png"
           alt="About Us"
           className="w-full h-full object-cover opacity-50"
         />
@@ -82,8 +81,7 @@ const About = () => {
             </div>
             <div>
               <img
-                // src="https://images.unsplash.com/photo-1599696848652-f0ff23bc911f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjMzMjE1MTR8MA&ixlib=rb-4.1.0&q=85"
-                src="/static/IMG_4360.png"
+                src="/images/IMG_4360.png"
                 alt="Our Work"
                 className="w-full h-[500px] object-cover rounded-lg shadow-xl"
               />

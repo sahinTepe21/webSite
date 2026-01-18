@@ -34,7 +34,7 @@ const Navbar = () => {
             {/* Logo */}
             <a className="flex items-center" href="/" data-discover="true">
               <img
-                src="/static/demYazı.svg"
+                src="/images/demYazı.svg"
                 alt="DEM Logo"
                 className="h-[8.25rem] w-auto object-contain"
               />
