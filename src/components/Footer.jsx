@@ -12,7 +12,8 @@ const Footer = () => {
             <h3 className="text-2xl font-light mb-4">dem</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Sağlam projeler, dürüst işçilik, sürdürülebilir yapılar.
-              <br/>Biz işimizi geçici değil, kalıcı yaparız.
+              <br />
+              Biz işimizi geçici değil, kalıcı yaparız.
             </p>
           </div>
 
@@ -91,7 +92,7 @@ const Footer = () => {
             <h4 className="text-lg font-medium mb-4">İletişim</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
               <li>Telefon: +90 (501) 648 08 21</li>
-              <li>Email: demgidacilar@hotmail.com</li>
+              <li>Email: demsahintepe@gmail.com</li>
               <li className="pt-4">
                 <div className="flex space-x-4">
                   <a href="#" className="hover:text-white transition-colors">

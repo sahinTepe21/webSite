@@ -39,11 +39,6 @@ const Navbar = () => {
                 className="h-[8.25rem] w-auto object-contain"
               />
             </a>
-            {/* <Link to="/" className="flex items-center">
-              <div className="text-3xl font-light tracking-wider text-gray-900">
-                dem
-              </div>
-            </Link> */}
 
             {/* Desktop Menu */}
             <div className="hidden lg:flex items-center space-x-8">
@@ -74,12 +69,6 @@ const Navbar = () => {
                 <Phone className="w-4 h-4" />
                 <span className="text-sm font-medium">+90 (501) 648 08 21</span>
               </a>
-
-              <div className="hidden md:flex items-center space-x-2">
-                <button className="text-sm font-medium text-gray-700">
-                  TR
-                </button>
-              </div>
 
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}

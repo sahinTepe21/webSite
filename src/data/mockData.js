@@ -162,18 +162,6 @@ export const news = [
 export const offices = [
   {
     id: 1,
-    name: "Dem Çarşı",
-    address: "Bağcılar, 1259 Sk. DEMÇARŞI SİTESİ NO 4/A, 21090 Bağlar/Diyarbakır",
-    workDays: "Haftanın 7 Günü",
-    workHours: "09:00-19:00",
-    email: "demgidacilar@hotmail.com",
-    phone: "+90 532 379 5324",
-    city: "Diyarbakır",
-    category: "Merkez",
-    mapLoc: "https://www.google.com/maps/place/DEM+%C3%87AR%C5%9EI/@37.9078831,40.0946551,779m/data=!3m2!1e3!4b1!4m6!3m5!1s0x407519987db54f61:0xc0d3471cfb7b128b!8m2!3d37.9078831!4d40.0946551!16s/g/11xzxqld38?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw=="
-  },
-  {
-    id: 2,
     name: "Dem Merkez Ofis",
     address: "Bağcılar Mah. Aramtigran Bulvarı Meram 4 yapı Koop. A/9blok altı, 21090 Bağlar/Diyarbakır",
     workDays: "Haftanın 7 Günü",
@@ -181,8 +169,20 @@ export const offices = [
     email: "demsahintepe@gmail.com",
     phone: "+90 501 648 0821",
     city: "Diyarbakır",
-    category: "Satış Ofisi",
+    category: "Merkez",
     mapLoc: "https://www.google.com/maps/place/Dem+kuyumculuk/@37.9117602,40.1492627,779m/data=!3m2!1e3!4b1!4m6!3m5!1s0x40751ffd4483e9bb:0x66b1ce34ff062f52!8m2!3d37.9117602!4d40.1492627!16s/g/11h7dcx6ys?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw=="
+  },
+  {
+    id: 2,
+    name: "Dem Çarşı",
+    address: "Bağcılar, 1259 Sk. DEMÇARŞI SİTESİ NO 4/A, 21090 Bağlar/Diyarbakır",
+    workDays: "Haftanın 7 Günü",
+    workHours: "09:00-19:00",
+    email: "demgidacilar@hotmail.com",
+    phone: "+90 532 379 5324",
+    city: "Diyarbakır",
+    category: "Satış Ofisi",
+    mapLoc: "https://www.google.com/maps/place/DEM+%C3%87AR%C5%9EI/@37.9078831,40.0946551,779m/data=!3m2!1e3!4b1!4m6!3m5!1s0x407519987db54f61:0xc0d3471cfb7b128b!8m2!3d37.9078831!4d40.0946551!16s/g/11xzxqld38?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw=="
   },
   {
     id: 3,
@@ -192,7 +192,7 @@ export const offices = [
     workHours: "09:00-19:00",
     email: "demsahintepe@gmail.com",
     phone: "+90 501 648 0821",
-    city: "Diyarabakır",
+    city: "Diyarbakır",
     category: "Satış Ofisi",
     mapLoc: "https://maps.app.goo.gl/dvkSaU2ZSiNmCns3A"
   },
