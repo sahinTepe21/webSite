@@ -9,7 +9,6 @@ import News from "./pages/News";
 import NewsDetail from "./pages/NewsDetail";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
-import Discoveries from "./pages/Discoveries";
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
           <Route path="/haberler/:slug" element={<NewsDetail />} />
           <Route path="/iletisim" element={<Contact />} />
           <Route path="/hakkimizda" element={<About />} />
-          <Route path="/kesifler" element={<Discoveries />} />
         </Routes>
         <Footer />
       </BrowserRouter>

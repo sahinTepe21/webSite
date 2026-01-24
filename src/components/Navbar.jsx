@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Search, Phone, Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
@@ -11,7 +11,6 @@ const Navbar = () => {
 
   const menuItems = [
     { name: 'Biz Kimiz', path: '/hakkimizda' },
-    { name: 'Keşifler', path: '/kesifler' },
     { name: 'Projeler', path: '/projeler' },
     { name: 'Haberler', path: '/haberler' },
     { name: 'İletişim', path: '/iletisim' },

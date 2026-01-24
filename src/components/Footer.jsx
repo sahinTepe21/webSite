@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 
@@ -95,20 +94,13 @@ const Footer = () => {
               <li>Email: demsahintepe@gmail.com</li>
               <li className="pt-4">
                 <div className="flex space-x-4">
-                  <a href="#" className="hover:text-white transition-colors">
-                    <Facebook className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="hover:text-white transition-colors">
+                  <a
+                    href="https://www.instagram.com/demyapidiyarbakir/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-white transition-colors"
+                  >
                     <Instagram className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="hover:text-white transition-colors">
-                    <Twitter className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="hover:text-white transition-colors">
-                    <Linkedin className="w-5 h-5" />
-                  </a>
-                  <a href="#" className="hover:text-white transition-colors">
-                    <Youtube className="w-5 h-5" />
                   </a>
                 </div>
               </li>

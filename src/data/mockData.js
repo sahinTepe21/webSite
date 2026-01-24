@@ -44,12 +44,12 @@ export const heroSlides = [
 export const landProjects = [
   {
     id: 1,
-    name: "Dem Çarşı ABC",
+    name: "Dem Çarşı A-B-C Blok",
     location: "Diyarbakır, Kayapınar",
     district: "Kayapınar",
     status: "Satışta",
     type: "Depo",
-    image: "/images/dem-3.JPG",
+    image: "/images/dem-3.jpg",
     slug: "dem-carsi",
     category: "depo",
     units: "Depo",
@@ -62,7 +62,7 @@ export const landProjects = [
   },
   {
     id: 2,
-    name: "Dem Çarşı D",
+    name: "Dem Çarşı D Blok",
     location: "Diyarbakır, Kayapınar",
     district: "Kayapınar",
     status: "Satışta",
@@ -122,24 +122,24 @@ export const residentialProjects = [
     district: "Bağlar",
     status: "Satışta",
     type: "Konut",
-    image: "/images/dem-2.JPG",
+    image: "/images/dem-2.jpg",
     slug: "dem-bungalov",
     category: "bungalov",
     units: "Bungalov",
     deliveryDate: "2025 Q3",
     info1: "Doğayla İç İçe, Suyun Kıyısında Bir Yaşam",
-    info2: "Diyarbakır Bağlar Zoğa mevkiinde, Eğertutmaz Deresi’ne sıfır konumda yer alan bu özel proje; 6 dönümlük geniş bir arazi üzerine konumlandırılmış, doğayla uyumu esas alan bungalov konseptiyle hayata geçirilmiştir.",
+    info2: "Diyarbakır Bağlar Zoğa mevkiinde, Eğertutmaz Deresi’ne sıfır konumda yer alan bu özel proje; 25100m²’lik geniş bir arazi üzerine konumlandırılmış, doğayla uyumu esas alan bungalov konseptiyle hayata geçirilmek üzere",
     info3: "50 m²’lik modern ve fonksiyonel yapısı, dere manzarasını kesintisiz şekilde iç mekâna taşırken; suyun sesi, yeşilin huzuru, ve açık manzara günün her anında yaşamın bir parçası hâline gelir. Eğertutmaz Deresi’ne komşu bu benzersiz konum, projeye sadece bir manzara değil, aynı zamanda doğal bir atmosfer ve sakin bir yaşam ritmi kazandırır.",
     info4: "Şehirden kopmadan, doğanın kalbinde nefes almak isteyenler için tasarlanan bu bungalov yapısı; hafta sonu kaçamağı, dinlenme alanı ya da alternatif yaşam modeli arayanlar için güçlü bir seçenek sunar.",
   },
   {
     id: 4,
-    name: "Dem Çarşı ABC",
+    name: "Dem Çarşı A-B-C Blok",
     location: "Diyarbakır, Kayapınar",
     district: "Kayapınar",
     status: "Satışta",
     type: "Depo",
-    image: "/images/dem-3.JPG",
+    image: "/images/dem-3.jpg",
     slug: "dem-carsi",
     category: "depo",
     units: "Depo",
@@ -152,12 +152,12 @@ export const residentialProjects = [
   },
   {
     id: 5,
-    name: "Dem Çarşı D",
+    name: "Dem Çarşı D Blok",
     location: "Diyarbakır, Kayapınar",
     district: "Kayapınar",
     status: "Satışta",
     type: "Depo",
-    image: "/images/dem-4.JPG",
+    image: "/images/dem-4.jpg",
     slug: "dem-carsi-d",
     category: "depo",
     units: "Depo",
@@ -177,13 +177,13 @@ export const news = [
   {
     id: 1,
     title: "Doğayla İç İçe Bungalov Projesi Hayata Geçti",
-    image: "/images/dem-news-1.JPG",
+    image: "/images/dem-news-1.jpg",
     slug: "dem-news-bungalov",
     excerpt: "Şehirden uzaklaşmadan sakin ve huzurlu yaşam imkânı...",
-    info1: "Diyarbakır Bağlar Zoğa mevkiinde, Eğertutmaz Deresi’ne sıfır konumda yer alan bungalov projemiz tamamlanmıştır. 6 dönümlük arazi üzerine konumlandırılan proje; doğayla uyumlu mimarisi ve sakin yaşam anlayışıyla, şehirden kopmadan doğanın içinde yaşamak isteyenler için özel olarak tasarlanmıştır.",
+    info1: "Diyarbakır Bağlar Zoğa mevkiinde, Eğertutmaz Deresi’ne sıfır konumda yer alan bungalov projemiz tamamlanmıştır. 25100 m²lik arazi üzerine konumlandırılan proje; doğayla uyumlu mimarisi ve sakin yaşam anlayışıyla, şehirden kopmadan doğanın içinde yaşamak isteyenler için özel olarak tasarlanmıştır.",
     info2: "Doğanın sesi, suyun huzuru ve yeşilin dinginliğiyle şekillenen bu özel proje; hafta sonu kaçamağı, dinlenme alanı ya da alternatif bir yaşam modeli arayanlar için ayrıcalıklı bir yaşam sunmaktadır.",
     feature1: "Konum: Diyarbakır, Bağlar, Zoğa Mevkii",
-    feature2: "Arazi Alanı: 6 dönüm",
+    feature2: "Arazi Alanı: 25100 m²",
     feature3: "Konsept: Dere kenarı, doğayla uyumlu bungalov yaşam",
     feature4: "Bungalov Alanı: 50 m²",
     feature5: "Eğertutmaz Deresi’ne sıfır, kesintisiz manzara",
@@ -194,7 +194,7 @@ export const news = [
   {
     id: 2,
     title: "Zoğa’da Özgür Villa Yaşamı Başlıyor",
-    image: "/images/dem-news-2.JPG",
+    image: "/images/dem-news-2.jpg",
     slug: "dem-news-villa",
     excerpt: "Kendi yaşam tarzını inşa etmek isteyenler için...",
     info1: "Diyarbakır Bağlar Zoğa mevkiinde, 203 dönümlük geniş bir alan üzerine konumlanan villa projemiz; standart projelerin ötesinde, özgürlük temelli bir yaşam anlayışı sunuyor.",
@@ -205,7 +205,7 @@ export const news = [
   {
     id: 3,
     title: "Çarıklı’da Dicle Manzaralı 2+1 Konut Projesi Yükseliyor",
-    image: "/images/dem-news-3.JPG",
+    image: "/images/dem-news-3.jpg",
     slug: "dem-news-sterk-konutlari",
     excerpt: "Hem oturum hem de uzun vadeli kazanç arayanlar için...",
     info1: "Diyarbakır’ın tarihi dokusuyla bütünleşen Çarıklı bölgesinde, tepe hakimiyetine sahip konumuyla öne çıkan 2+1 Net: 86 m²’ lik konut projemiz hayata geçiriliyor. Dicle Nehri manzarasını yaşam alanlarına taşıyan proje; şehirden uzaklaşmadan huzurlu ve prestijli bir yaşam sunmayı hedefliyor.",
@@ -215,7 +215,7 @@ export const news = [
   {
     id: 4,
     title: "DEM ÇARŞI Çölgüzeli Depo Projesi Tamamlandı",
-    image: "/images/dem-news-4.JPG",
+    image: "/images/dem-news-4.jpg",
     slug: "dem-news-carsi-abc",
     excerpt: "Lojistik, ticaret ve depolama faaliyetleri için...",
     info1: "Diyarbakır Kayapınar ilçesi Çölgüzeli mevkiinde, 25 dönüm arazi üzerinde inşa edilen DEM ÇARŞI depo projemiz başarıyla tamamlanarak kullanıma hazır hale getirilmiştir. Stratejik konumu sayesinde şehir içi ve şehirlerarası ulaşım akslarına hızlı erişim imkânı sunan proje; lojistik, ticaret ve depolama faaliyetleri için üst düzey çözümler sağlamaktadır.",
@@ -284,29 +284,7 @@ export const offices = [
     city: "Diyarbakır",
     category: "Satış Ofisi",
     mapLoc: "https://maps.app.goo.gl/dvkSaU2ZSiNmCns3A"
-  },
-  // {
-  //   id: 4,
-  //   name: "İzmir Alsancak Satış Ofisi",
-  //   address: "Gazi Osman Paşa Blv. No:10A, 35210 Konak/İzmir",
-  //   workDays: "Haftanın 7 Günü",
-  //   workHours: "10:00-19:00",
-  //   email: "izmir.res@example.com.tr",
-  //   phone: "444 9 633",
-  //   city: "İzmir",
-  //   category: "Satış Ofisi"
-  // },
-  // {
-  //   id: 5,
-  //   name: "Bodrum Yalıkavak Satış Ofisi",
-  //   address: "Gökçebel, Kızılburun Mevki Dirmil Mahallesi 261.Sokak Bodrum, Muğla",
-  //   workDays: "Haftanın 7 Günü",
-  //   workHours: "10:00-18:00",
-  //   email: "yalikavak.res@example.com.tr",
-  //   phone: "444 9 633",
-  //   city: "Muğla",
-  //   category: "Satış Ofisi"
-  // }
+  }
 ];
 
 export const cities = ["Tümü", "Diyarbakır"];

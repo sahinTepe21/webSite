@@ -137,7 +137,7 @@ const ProjectDetail = () => {
                   </div>
                 )}
 
-                {project.deliveryDate && (
+                {/* {project.deliveryDate && (
                   <div className="flex items-start">
                     <Calendar className="w-5 h-5 text-gray-400 mr-3 mt-1" />
                     <div>
@@ -147,7 +147,7 @@ const ProjectDetail = () => {
                       </p>
                     </div>
                   </div>
-                )}
+                )} */}
 
                 <div className="pt-4 border-t border-gray-200">
                   <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
