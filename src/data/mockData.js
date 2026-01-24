@@ -167,7 +167,7 @@ export const residentialProjects = [
     district: "Kayapınar",
     status: "Satışta",
     type: "Depo",
-    image: "/images/dem-4.jpg",
+    image: "/images/dem-4.JPG",
     slug: "dem-carsi-d",
     category: "depo",
     units: "Depo",
