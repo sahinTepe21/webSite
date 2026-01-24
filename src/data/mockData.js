@@ -97,6 +97,16 @@ export const residentialProjects = [
     info1: "Diyarbakır’ın tarihi dokusuyla bütünleşen Çarıklı bölgesinde, tepe hakimiyetine sahip konumuyla öne çıkan bu özel proje; Dicle Nehri manzarasını yaşam alanlarına taşıyor. Şehrin gürültüsünden uzak, ancak merkezle bağlantısını koparmayan lokasyonu sayesinde hem huzurlu hem de erişilebilir bir yaşam sunuyor.",
     info2: "Modern mimari anlayışıyla tasarlanan 2+1 daireler; ferah iç planlaması, gün boyu doğal ışık alan yaşam alanları ve manzarayı maksimum seviyede değerlendiren balkonlarıyla konforu yeniden tanımlıyor. Her detay, günlük yaşamı kolaylaştırmak ve yaşam kalitesini yükseltmek amacıyla özenle planlandı.",
     info3: "Doğayla iç içe konumu, güçlü altyapısı ve yatırım değeri yüksek lokasyonu ile bu proje; hem oturum hem de uzun vadeli kazanç arayanlar için ayrıcalıklı bir fırsat sunuyor.",
+    feature1: "Modern ve şık mimari tasarım",
+    feature2: "Geniş sosyal tesis alanları",
+    feature3: "24 saat güvenlik hizmeti",
+    feature4: "Yeşil alanlar ve peyzaj düzenleme",
+    feature5: "Açık otopark",
+    feature6: "Yüzme havuzu ve fitness merkezi",
+    feature7: "Gündüz Bakım Evi",
+    feature8: "Elektrik Şarj İstasyonu",
+    feature9: "Güneş Enerji Sistemi ile Elektrik Tasarrufu",
+    feature10: "Merkezi Sistem ile Yerden ısıtma",
   },
   {
     id: 2,
@@ -164,10 +174,7 @@ export const residentialProjects = [
     deliveryDate: "2025 Q3",
     info1: "Diyarbakır Kayapınar Çölgüzeli mevkiinde, toplam 8 dönüm arazi üzerine inşa edilen Depo 2. Etap Projesi başarıyla tamamlanmıştır. Proje kapsamında tüm altyapı çalışmaları eksiksiz şekilde bitirilmiş olup, kullanıma hazır durumdadır.",
     info2: "D Blok olarak adlandırılan 2. Etap, toplam 12 adet dükkândan oluşmaktadır. Her biri farklı ihtiyaçlara cevap verecek şekilde planlanan alanlar, 400 m² ile 800 m² arasında değişen kullanım alanlarına sahiptir.",
-    info3: "Lojistik, depolama ve ticari faaliyetler için uygun şekilde tasarlanan proje; konumu, altyapı kalitesi ve fonksiyonel planlamasıyla yatırımcılar ve işletmeler için güçlü bir çözüm sunmaktadır. Modern yapısı ve erişilebilir lokasyon avantajı sayesinde bölgedeki ticari potansiyele değer katmaktadır.",
-    feature1: "A Blok’ta net 400 m² kullanım alanına sahip 7 adet dükkân,",
-    feature2: "B Blok’ta net alanları 400 m² ile 800 m² arasında değişen 10 adet dükkân,",
-    feature3: "C Blok’ta ise net 580 m² ile 615 m² aralığında 12 adet dükkân yer almaktadır.",
+    info3: "Lojistik, depolama ve ticari faaliyetler için uygun şekilde tasarlanan proje; konumu, altyapı kalitesi ve fonksiyonel planlamasıyla yatırımcılar ve işletmeler için güçlü bir çözüm sunmaktadır. Modern yapısı ve erişilebilir lokasyon avantajı sayesinde bölgedeki ticari potansiyele değer katmaktadır."
   }
 ];
 

@@ -74,7 +74,16 @@ const ProjectDetail = () => {
                 {project.info4}
               </p>
 
-              {(project.feature1 || project.feature2 || project.feature3) && (
+              {(project.feature1 ||
+                project.feature2 ||
+                project.feature3 ||
+                project.feature4 ||
+                project.feature5 ||
+                project.feature6 ||
+                project.feature7 ||
+                project.feature8 ||
+                project.feature9 ||
+                project.feature10) && (
                 <>
                   <h3 className="text-2xl text-gray-900 mb-4 mt-12 font-normal">
                     Öne Çıkan Özellikler
@@ -99,6 +108,55 @@ const ProjectDetail = () => {
                       <li className="flex items-start">
                         <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
                         <span>{project.feature3}</span>
+                      </li>
+                    )}
+
+                    {project.feature4 && (
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
+                        <span>{project.feature4}</span>
+                      </li>
+                    )}
+
+                    {project.feature5 && (
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
+                        <span>{project.feature5}</span>
+                      </li>
+                    )}
+
+                    {project.feature6 && (
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
+                        <span>{project.feature6}</span>
+                      </li>
+                    )}
+
+                    {project.feature7 && (
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
+                        <span>{project.feature7}</span>
+                      </li>
+                    )}
+
+                    {project.feature8 && (
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
+                        <span>{project.feature8}</span>
+                      </li>
+                    )}
+
+                    {project.feature9 && (
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
+                        <span>{project.feature9}</span>
+                      </li>
+                    )}
+
+                    {project.feature10 && (
+                      <li className="flex items-start">
+                        <span className="w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></span>
+                        <span>{project.feature10}</span>
                       </li>
                     )}
                   </ul>
@@ -136,18 +194,6 @@ const ProjectDetail = () => {
                     </div>
                   </div>
                 )}
-
-                {/* {project.deliveryDate && (
-                  <div className="flex items-start">
-                    <Calendar className="w-5 h-5 text-gray-400 mr-3 mt-1" />
-                    <div>
-                      <p className="text-sm text-gray-500">Teslim Tarihi</p>
-                      <p className="text-gray-900 font-medium">
-                        {project.deliveryDate}
-                      </p>
-                    </div>
-                  </div>
-                )} */}
 
                 <div className="pt-4 border-t border-gray-200">
                   <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
