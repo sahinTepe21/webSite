@@ -46,7 +46,18 @@ const Navbar = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors"
+                  className="
+                    font-[Chalet]
+                    text-sm
+                    font-bold
+                    capitalize
+                    text-[#1d1d1b]
+                    leading-[17px]
+                    tracking-[0.02em]
+                    outline-none
+                    transition-colors
+                    hover:text-gray-900
+                  "
                 >
                   {item.name}
                 </Link>

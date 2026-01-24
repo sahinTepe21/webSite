@@ -57,7 +57,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6">
+              <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6 font-normal">
                 Hikayemiz
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
@@ -102,7 +102,7 @@ const About = () => {
       <div className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 font-normal">
               Değerlerimiz
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">

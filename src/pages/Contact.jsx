@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import { MapPin, Phone, Mail, Clock, Search } from "lucide-react";
-import { offices, cities } from "../data/mockData";
-import { Button } from "../components/ui/button";
+import { useState } from 'react';
+import { MapPin, Phone, Mail, Clock, Search } from 'lucide-react';
+import { offices, cities } from '../data/mockData';
+import { Button } from '../components/ui/button';
 
 const Contact = () => {
-  const [selectedCity, setSelectedCity] = useState("Tümü");
-  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCity, setSelectedCity] = useState('Tümü');
+  const [searchQuery, setSearchQuery] = useState('');
 
-  const filteredOffices = offices.filter((office) => {
-    const matchesCity = selectedCity === "Tümü" || office.city === selectedCity;
+  const filteredOffices = offices.filter(office => {
+    const matchesCity = selectedCity === 'Tümü' || office.city === selectedCity;
     const matchesSearch =
       office.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
       office.address.toLowerCase().includes(searchQuery.toLowerCase());
@@ -40,10 +40,10 @@ const Contact = () => {
               </label>
               <select
                 value={selectedCity}
-                onChange={(e) => setSelectedCity(e.target.value)}
+                onChange={e => setSelectedCity(e.target.value)}
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
               >
-                {cities.map((city) => (
+                {cities.map(city => (
                   <option key={city} value={city}>
                     {city}
                   </option>
@@ -60,7 +60,7 @@ const Contact = () => {
                 <input
                   type="text"
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={e => setSearchQuery(e.target.value)}
                   placeholder="Ofis veya adres arayın..."
                   className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900"
                 />
@@ -78,7 +78,7 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredOffices.map((office) => (
+          {filteredOffices.map(office => (
             <div
               key={office.id}
               className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300"
@@ -109,7 +109,7 @@ const Contact = () => {
                 <div className="flex items-center">
                   <Phone className="w-4 h-4 mr-2 flex-shrink-0 text-gray-400" />
                   <a
-                    href={`tel:${office.phone.replace(/\s/g, "")}`}
+                    href={`tel:${office.phone.replace(/\s/g, '')}`}
                     className="hover:text-blue-600"
                   >
                     {office.phone}
