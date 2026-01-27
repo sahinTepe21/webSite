@@ -17,7 +17,6 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <h1 className="text-4xl md:text-5xl font-light text-gray-900 mb-4">
@@ -29,7 +28,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Filters */}
       <div className="bg-white border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -71,7 +69,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Offices List */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="mb-6">
           <p className="text-gray-600">{filteredOffices.length} ofis bulundu</p>
@@ -81,63 +78,91 @@ const Contact = () => {
           {filteredOffices.map(office => (
             <div
               key={office.id}
-              className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300"
+              className={`relative bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300
+              ${office.image ? 'hover:-translate-y-1 hover:shadow-2xl' : 'hover:shadow-xl'}
+            `}
             >
-              <div className="mb-4">
-                <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full mb-2">
-                  {office.category}
-                </span>
-                <h3 className="text-xl font-semibold text-gray-900">
-                  {office.name}
-                </h3>
-              </div>
+              {office.image && (
+                <div className="relative h-40 overflow-hidden">
+                  <img
+                    src={office.image}
+                    alt={office.name}
+                    className="w-full h-full object-cover object-top"
+                  />
+                  <div className="absolute inset-0 bg-black/40"></div>
+                  <span className="absolute top-3 left-3 px-3 py-1 bg-white/90 text-gray-900 text-xs font-semibold rounded-full backdrop-blur-sm">
+                    {office.category}
+                  </span>
+                </div>
+              )}
 
-              <div className="space-y-3 text-sm text-gray-600">
-                <div className="flex items-start">
-                  <MapPin className="w-4 h-4 mr-2 mt-1 flex-shrink-0 text-gray-400" />
-                  <span>{office.address}</span>
+              <div className="p-6">
+                <div className="mb-4">
+                  {!office.image && (
+                    <span className="inline-block px-3 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded-full mb-2">
+                      {office.category}
+                    </span>
+                  )}
+
+                  <h3 className="text-xl font-bold text-gray-900">
+                    {office.name}
+                  </h3>
                 </div>
 
-                <div className="flex items-center">
-                  <Clock className="w-4 h-4 mr-2 flex-shrink-0 text-gray-400" />
-                  <div>
-                    <div>{office.workDays}</div>
-                    <div>{office.workHours}</div>
+                <div className="space-y-3 text-sm text-gray-800 font-medium">
+                  <div className="flex items-start">
+                    <MapPin className="w-4 h-4 mr-2 mt-1 flex-shrink-0 text-gray-600" />
+                    <span>{office.address}</span>
+                  </div>
+
+                  <div className="flex items-center">
+                    <Clock className="w-4 h-4 mr-2 flex-shrink-0 text-gray-600" />
+                    <div>
+                      <div>{office.workDays}</div>
+                      <div>{office.workHours}</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center">
+                    <Phone className="w-4 h-4 mr-2 flex-shrink-0 text-gray-600" />
+                    <a
+                      href={`tel:${office.phone.replace(/\s/g, '')}`}
+                      className="hover:text-blue-700"
+                    >
+                      {office.phone}
+                    </a>
+                  </div>
+
+                  <div className="flex items-center">
+                    <Mail className="w-4 h-4 mr-2 flex-shrink-0 text-gray-600" />
+                    <a
+                      href={`mailto:${office.email}`}
+                      className="hover:text-blue-700 break-all"
+                    >
+                      {office.email}
+                    </a>
                   </div>
                 </div>
 
-                <div className="flex items-center">
-                  <Phone className="w-4 h-4 mr-2 flex-shrink-0 text-gray-400" />
+                <div className="mt-6 pt-6 border-t border-gray-200">
                   <a
-                    href={`tel:${office.phone.replace(/\s/g, '')}`}
-                    className="hover:text-blue-600"
+                    href={office.mapLoc}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full block"
                   >
-                    {office.phone}
+                    <Button
+                      variant="outline"
+                      className="w-full font-semibold text-gray-900 border-gray-400 
+                        bg-white/80 backdrop-blur-sm
+                        shadow-sm hover:shadow-md
+                        hover:bg-blue-600 hover:text-white hover:border-blue-600
+                        transition-all duration-200"
+                    >
+                      Yol Tarifi Al
+                    </Button>
                   </a>
                 </div>
-
-                <div className="flex items-center">
-                  <Mail className="w-4 h-4 mr-2 flex-shrink-0 text-gray-400" />
-                  <a
-                    href={`mailto:${office.email}`}
-                    className="hover:text-blue-600 break-all"
-                  >
-                    {office.email}
-                  </a>
-                </div>
-              </div>
-
-              <div className="mt-6 pt-6 border-t border-gray-200">
-                <a
-                  href={office.mapLoc}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full block"
-                >
-                  <Button variant="outline" className="w-full">
-                    Yol Tarifi Al
-                  </Button>
-                </a>
               </div>
             </div>
           ))}

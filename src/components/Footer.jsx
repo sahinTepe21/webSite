@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-light mb-4">dem</h3>
+            <h3 className="text-2xl font-light mb-4">Dem Yapı</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               Sağlam projeler, dürüst işçilik, sürdürülebilir yapılar.
               <br />

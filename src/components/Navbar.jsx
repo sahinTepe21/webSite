@@ -35,7 +35,7 @@ const Navbar = () => {
               <img
                 src="/images/demYazı.svg"
                 alt="DEM Logo"
-                className="h-[8.25rem] w-auto object-contain"
+                className="h-10 md:h-12 w-auto object-contain"
               />
             </a>
 
