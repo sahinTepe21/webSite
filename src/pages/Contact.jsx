@@ -90,7 +90,7 @@ const Contact = () => {
                     className="w-full h-full object-cover object-top"
                   />
                   <div className="absolute inset-0 bg-black/40"></div>
-                  <span className="absolute top-3 left-3 px-3 py-1 bg-white/90 text-gray-900 text-xs font-semibold rounded-full backdrop-blur-sm">
+                  <span className="absolute top-3 right-3 px-3 py-1 bg-white/90 text-gray-900 text-xs font-semibold rounded-full backdrop-blur-sm">
                     {office.category}
                   </span>
                 </div>
