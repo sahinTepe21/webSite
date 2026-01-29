@@ -37,6 +37,10 @@ const Navbar = () => {
                 alt="DEM Logo"
                 className="h-10 md:h-12 w-auto object-contain"
               />
+
+              <span className="ml-2 text-lg md:text-xl font-semibold tracking-wide">
+                DEM YAPI
+              </span>
             </a>
 
             {/* Desktop Menu */}

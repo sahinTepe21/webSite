@@ -29,7 +29,9 @@ const NewsDetail = () => {
         <img
           src={newsItem.image}
           alt={newsItem.title}
-          className="w-full h-full object-cover"
+          className={`w-full h-full object-cover ${
+            newsItem.id === 4 ? 'object-[75%_85%]' : 'object-cover'
+          }`}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
       </div>
