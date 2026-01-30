@@ -61,18 +61,26 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/projeler?category=konut"
+                  to="/projeler?category=bungalov"
                   className="text-gray-400 hover:text-white transition-colors text-sm"
                 >
-                  Konut Projeleri
+                  Bungalov Projeleri
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/projeler?category=arsa"
+                  to="/projeler?category=depo"
                   className="text-gray-400 hover:text-white transition-colors text-sm"
                 >
-                  Arsa Projeleri
+                  Depo Projeleri
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/projeler?category=konut"
+                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                >
+                  Konut Projeleri
                 </Link>
               </li>
               <li>

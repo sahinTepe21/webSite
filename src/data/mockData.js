@@ -20,7 +20,7 @@ export const heroSlides = [
     title: "Dem Köy Villaları",
     subtitle: "Işığı içeri alan, mutluluğu dışarı vuran",
     location: "Diyarbakır, Bağlar, Zoğa",
-    image: "/images/IMG_8570.JPG",
+    image: "/images/IMG_8570.jpg",
     link: "/projeler/dem-koy-villa"
   },
   {
